@@ -1,13 +1,11 @@
 /**
  * 服务端接口转发
  */
-import fetch from 'isomorphic-fetch';
-// let apiURl="https://api.github.com";
+import axios from 'axios';
 import {env,conf} from '../../config';
 
-
 //转发请求
-export default function(url){
+export default function(url,req){
     let apiURl=conf.api;
     if(url.indexOf("/api/")>-1){
         let urlReg=/(\/\w+)/;
@@ -25,17 +23,25 @@ export default function(url){
             url=apiURl+pathName+"?"+queryStr;
         }
     }
-    console.log("代理后的url地址[%s]",url)
-    return fetch(url).then((res)=>res.json()).then((data)=>{
-        return {
-            data,
-            err:null
-        }
-        return data;
-    }).catch((err)=>{
-        return {
-            data:null,
-            err:err
-        }
-    });
+    console.log("代理后的url地址[%s]",url+"?temp="+Math.random())
+    let params={}
+    if(req.method=="POST"){
+        params=req.body;
+    }
+    return new Promise((resolve,reject)=>{
+        axios[req.method.toString().toLowerCase()](url+"?temp="+Math.random(), params).then((data)=>{
+            var info= {
+                data,
+                err:null
+            }
+            resolve(info);
+        }).catch((err)=>{
+            console.log(err);
+            var info= {
+                data:null,
+                err:err
+            }
+            reject(info);
+        });
+    })
 }

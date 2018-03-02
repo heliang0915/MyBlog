@@ -22,16 +22,20 @@ import  axios from 'axios';
 //     return Promise.reject(error)
 // })
 
+
+
 let Fetch = {
     baseURl: "/",
     parseConfig(config){
         return config = config == null ? {} : config;
     },
     get(url, config){
+        url=url.indexOf("?")>-1?url+"&temp="+Math.random():"?temp="+Math.random();
         console.log(`Fetch GET URL => ${url}`);
-        return axios.get(url, this.parseConfig(config));
+        return axios.get(url+"", this.parseConfig(config));
     },
     post(url, params, config){
+        url=url.indexOf("?")>-1?url+"?temp="+Math.random():"&temp="+Math.random();
         console.log(`Fetch POST URL =>${url}`);
         return axios.post(url, params, this.parseConfig(config));
     }

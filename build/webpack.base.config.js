@@ -88,14 +88,11 @@ module.exports = {
             new webpack.optimize.UglifyJsPlugin({
                 compress: { warnings: false }
             }),
-            // new HtmlWebpackPlugin({
-            //     compress: { warnings: false }
-            // }),
             new ExtractTextPlugin({
                 filename: 'common.[chunkhash].css'
             })
         ]
         :
-        [ new OpenBrowserPlugin({ url: 'http://localhost:4000' }),new FriendlyErrorsPlugin()]
+        [ new OpenBrowserPlugin({ url: `http://localhost:${isProd?5000:4000}` }),new FriendlyErrorsPlugin()]
 }
  

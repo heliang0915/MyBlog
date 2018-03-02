@@ -1,8 +1,8 @@
 /**
  *   SEO和路由配置
  */
-import { indexComponent,aboutComponent,weightIndexComponent,notFoundComponent} from '../routes/asyncRoutes';
-
+import vueRouter from '../routes/asyncRoutes';
+let {indexComponent,notFoundComponent}=vueRouter
 let seoMap={
     "/":{
         seo:{
@@ -12,22 +12,6 @@ let seoMap={
         },
         component:indexComponent
     },
-    // "/about":{
-    //     seo: {
-    //         title: "关于",
-    //         keywords: "关于关键字",
-    //         description: "关于描述"
-    //     },
-    //     component:aboutComponent
-    // },
-    // "/weight":{
-    //     seo: {
-    //         title: "组件测试",
-    //         keywords: "组件测试关键字",
-    //         description: "组件测试描述"
-    //     },
-    //     component:weightIndexComponent
-    // },
     "*":{
         seo: {
             title: "找不到了",
