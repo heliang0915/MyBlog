@@ -34,6 +34,7 @@ export default function(url,req){
                 data,
                 err:null
             }
+            console.log(`返回数据:${data}`);
             resolve(info);
         }).catch((err)=>{
             console.log(err);

@@ -54,6 +54,7 @@ if (App.get('env') === 'development') {
             res.status(404).end('Not Found')
         }else{
             fs.readFile(path.join(__dirname,"/page/500.html"),(er,content)=>{
+                console.log(err);
                 res.status(err.status || 500).end(content.toString());
             })
         }
