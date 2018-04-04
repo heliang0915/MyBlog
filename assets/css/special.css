@@ -1,0 +1,321 @@
+body{
+    /*overflow-x: hidden;*/
+}
+.blog-warp > header{
+    height: 480px;
+    width: 100%;
+    background: url("../images/bg.jpg") no-repeat;
+    background-size: 100% 431px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-position: bottom;
+}
+.blog-warp > header .blog-column{
+    margin-top: 80px;
+    font-size: 30px;
+    background: linear-gradient(to left,rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.3),rgba(255, 255, 255, 0));
+    padding: 10px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    line-height: 40px;
+}
+.blog-warp > header .blog-short{
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 50%;
+    background: #e38956;
+    border: 2px solid #FFF;
+    line-height: 150px;
+    text-align: center;
+    display: block;
+    font-style: normal;
+    font-size: 60px;
+    color: #FFF;
+}
+.blog-warp > header .blog-info{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 82px;
+    color: #333;
+    background:linear-gradient(to bottom,rgba(255,255,225, 1),rgba(255,255,225,0));
+    padding: 20px 0;
+}
+.blog-warp > header .add-follow{
+    color:#FFF;
+    background: #9d060e;
+    padding: 10px 16px;
+    border-radius:45px;
+    font-size: 13px;
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+.blog-warp > header .add-follow:before{
+    content: '+';
+    font-weight: bolder;
+    font-size:16px;
+
+}
+
+.blog-warp > header .blog-info em{
+    color: #9d060e;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+.blog-warp > header .blog-info li{
+    flex: 1;
+    text-align:center;
+}
+
+
+/*主区域*/
+.blog-warp > main{
+
+}
+/*导航 start*/
+.blog-warp > main .blog-nav{
+    width: 100%;
+    background: #f8f8f8;
+    display: flex;
+    align-items: center;
+}
+
+.blog-warp > main .blog-nav li{
+    display: inline-block;
+}
+.blog-warp > main .blog-nav li.active{
+    background: #e9471e;
+}
+.blog-warp > main .blog-nav li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    padding: 15px 20px;
+    display: inline-block;
+}
+.blog-warp > main .blog-nav li.active a{
+    color: #FFF;
+}
+/*导航 end*/
+.blog-main{
+    padding:70px 45px;
+    display: flex;
+
+}
+/*左侧列表*/
+
+.article-list{
+    flex: 4;
+    padding-right: 40px;
+}
+.article-list h3{
+    font-size: 26px;
+    color:#9d060e;
+}
+
+.article-list .blog-ls{
+    margin-top: 25px;
+}
+.article-list .blog-ls .blog-item{
+    border-bottom: 1px dashed #ddd;
+    padding: 20px 0;
+
+}
+.blog-ls .blog-item h4{
+    font-size: 25px;
+    font-weight: normal;
+    color: #2e2e2e;
+    margin-bottom:15px;
+}
+.article-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-ls .blog-item .blog-content{
+    display:flex;
+}
+.blog-ls .blog-item .blog-content p{
+    line-height: 30px;
+    color: #707070;
+    font-size: 18px;
+    padding-right: 30px;
+    width: 82%;
+}
+.blog-ls .blog-item a span{
+   margin-top: 5px;
+   display: inline-block;
+   color: #999;
+
+}
+.blog-ls .blog-item .blog-content img{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+/*右侧信息 start*/
+.article-aside{
+    flex: 1;
+}
+
+.article-title{
+    font-size: 24px;
+    height: 24px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.article-title::before{
+    content: "";
+    width:5px;
+    height: 24px;
+    background: #b10d14;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-right:10px;
+}
+.article-title::after{
+    content: "";
+    width:120px;
+    height: 1px;
+    background: #ddd;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    margin-left:8px;
+}
+
+.hot-article ul{
+    margin-top: 30px;
+    list-style: none;
+}
+.hot-article ul li a{
+    margin: 0;
+    padding:8px 0;
+    display: inline-block;
+    font-size: 16px;
+    color: #555;
+}
+.hot-article ul li a em{
+    color: #999999;
+    margin-right: 12px;
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+.hot-article ul li:nth-child(1) a em,.hot-article ul li:nth-child(2) a em,.hot-article ul li:nth-child(3) a em{
+    color: #f24549;
+}
+
+.column-article section{
+    margin-top:40px;
+
+}
+.column-article section span{
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding: 6px 10px;
+    margin:5px;
+    display: inline-block;
+    color: #bbb;
+}
+
+.article-aside .date-article{
+    margin-bottom: 30px;
+}
+.article-aside .date-article ul{
+    margin-top: 30px;
+    position: relative;
+}
+.article-aside .date-article ul::before{
+    height: 100%;
+    width: 2px;
+    content: '';
+    display: inline-block;
+    background: #ccc;
+    position: absolute;
+    left: 3px;
+    top: 8px;
+}
+.article-aside .date-article ul li{
+    margin-left: 0px;
+}
+.article-aside .date-article ul li::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ccc;
+    display: inline-block;
+    margin: 20px 10px 0 0;
+}
+
+.fan-article section{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.fan-article section p{
+    color: #333;
+    line-height: 26px;
+}
+/*右侧信息 end*/
+/*尾部*/
+.blog-warp > footer{
+    /*height: 120px;*/
+    background: #000;
+    color: #FFF;
+}
+/*头部悬浮条*/
+.fixed-header{
+    height: 50px;
+    line-height: 40px;
+    color: #FFF;
+    background: #4c4f51;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*.fixed-header .blog-logo img{*/
+    /*height:35px;*/
+    /*width:117px;*/
+    /*position: relative;*/
+    /*top: 10px;*/
+    /*left: 10px;*/
+/*}*/
+/*.fixed-header .blog-user{*/
+    /*margin-right: 30px;*/
+    /*display: flex;*/
+    /*justify-items: center;*/
+/*}*/
+/*.fixed-header .blog-user span{*/
+    /*height:40px;*/
+    /*width: 40px;*/
+    /*background:#5387e2;*/
+    /*color: #FFF;*/
+    /*display: block;*/
+    /*text-align: center;*/
+    /*border-radius: 50% 50%;*/
+/*}*/
+/*.fixed-header .blog-user a{*/
+    /*font-style:normal;*/
+    /*display: block;*/
+    /*color: #FFF;*/
+    /*font-size: 20px;*/
+    /*margin-right: 15px;*/
+    /*text-decoration: none;*/
+/*}*/
+

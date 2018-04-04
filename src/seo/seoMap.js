@@ -2,7 +2,7 @@
  *   SEO和路由配置
  */
 import vueRouter from '../routes/asyncRoutes';
-let {indexComponent,blogContent,notFoundComponent}=vueRouter
+let {indexComponent,blogContent,specialColumn,notFoundComponent}=vueRouter
 let seoMap={
     "/":{
         seo:{
@@ -11,6 +11,14 @@ let seoMap={
             description:"首页描述",
         },
         component:indexComponent
+    },
+    "/special":{
+        seo:{
+            title:"博客专栏",
+            keywords:"博客专栏关键字",
+            description:"博客专栏描述",
+        },
+        component:specialColumn
     },
     "/blog/:uuid.html":{
         seo:{

@@ -1334,3 +1334,293 @@
     at __webpack_require__ (webpack:/webpack/bootstrap b9ad3ffb21f17fb7fd96:25:0)
     at Object.module.exports.Object.defineProperty.value (src/app.js:7:0)
     at __webpack_require__ (webpack:/webpack/bootstrap b9ad3ffb21f17fb7fd96:25:0)
+[2018-03-09 17:24:10.880] [ERROR] log_info - TypeError: path.lastIndex is not a function
+    at mergeContext (/Users/hotread/work/learn/MyBlog/server/router/index.js:30:32)
+    at /Users/hotread/work/learn/MyBlog/server/router/index.js:58:13
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:410:3)
+[2018-03-09 17:24:41.837] [ERROR] log_info - TypeError: path.lastIndex is not a function
+    at mergeContext (/Users/hotread/work/learn/MyBlog/server/router/index.js:30:32)
+    at /Users/hotread/work/learn/MyBlog/server/router/index.js:58:13
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:410:3)
+[2018-03-09 17:25:09.190] [ERROR] log_info - TypeError: path.lastIndex is not a function
+    at mergeContext (/Users/hotread/work/learn/MyBlog/server/router/index.js:30:32)
+    at /Users/hotread/work/learn/MyBlog/server/router/index.js:58:13
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:410:3)
+[2018-03-09 17:27:04.552] [ERROR] log_info - TypeError: path.lastIndex is not a function
+    at mergeContext (/Users/hotread/work/learn/MyBlog/server/router/index.js:30:32)
+    at /Users/hotread/work/learn/MyBlog/server/router/index.js:58:13
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:410:3)
+[2018-03-12 18:17:24.737] [ERROR] log_info - Error: Module build failed: Error: ENOENT: no such file or directory, open '/Users/hotread/work/learn/MyBlog/assets/images/bg.jpg'
+    at Object.module.exports._vm (server-bundle.js:753:7)
+    at __webpack_require__ (webpack:/webpack/bootstrap 0fa515b4726f9e6bfa8e:25:0)
+    at Object.<anonymous> (assets/css/index.css:7:123)
+    at __webpack_require__ (webpack:/webpack/bootstrap 0fa515b4726f9e6bfa8e:25:0)
+    at Object.<anonymous> (assets/css/index.css?8245:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 0fa515b4726f9e6bfa8e:25:0)
+    at Object.<anonymous> (src/App.vue:11:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 0fa515b4726f9e6bfa8e:25:0)
+    at Object.<anonymous> (server-bundle.js:584:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 0fa515b4726f9e6bfa8e:25:0)
+[2018-03-12 18:17:26.883] [ERROR] log_info - Error: Module build failed: Error: ENOENT: no such file or directory, open '/Users/hotread/work/learn/MyBlog/assets/images/bg.jpg'
+    at Object.module.exports._vm (server-bundle.js:753:7)
+    at __webpack_require__ (webpack:/webpack/bootstrap 0fa515b4726f9e6bfa8e:25:0)
+    at Object.<anonymous> (assets/css/index.css:7:123)
+    at __webpack_require__ (webpack:/webpack/bootstrap 0fa515b4726f9e6bfa8e:25:0)
+    at Object.<anonymous> (assets/css/index.css?8245:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 0fa515b4726f9e6bfa8e:25:0)
+    at Object.<anonymous> (src/App.vue:11:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 0fa515b4726f9e6bfa8e:25:0)
+    at Object.<anonymous> (server-bundle.js:584:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 0fa515b4726f9e6bfa8e:25:0)
+[2018-03-13 17:48:16.509] [ERROR] log_info - Error: Module build failed: Missed semicolon (88:12)
+
+  86 |     padding: 0px;
+  87 |     width: 8%;
+> 88 |     float: left:;
+     |            ^
+  89 | }
+  90 | 
+  91 | 
+
+    at Object.<anonymous> (server-bundle.js:718:7)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (assets/css/index.css:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (src/App.vue:11:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (server-bundle.js:586:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+[2018-03-13 17:48:16.823] [ERROR] log_info - Error: Module build failed: Missed semicolon (88:12)
+
+  86 |     padding: 0px;
+  87 |     width: 8%;
+> 88 |     float: left:;
+     |            ^
+  89 | }
+  90 | 
+  91 | 
+
+    at Object.<anonymous> (server-bundle.js:718:7)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (assets/css/index.css:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (src/App.vue:11:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (server-bundle.js:586:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+[2018-03-13 17:48:17.340] [ERROR] log_info - Error: Module build failed: Missed semicolon (88:12)
+
+  86 |     padding: 0px;
+  87 |     width: 8%;
+> 88 |     float: left:;
+     |            ^
+  89 | }
+  90 | 
+  91 | 
+
+    at Object.<anonymous> (server-bundle.js:718:7)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (assets/css/index.css:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (src/App.vue:11:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (server-bundle.js:586:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+[2018-03-13 17:48:17.348] [ERROR] log_info - Error: Module build failed: Missed semicolon (88:12)
+
+  86 |     padding: 0px;
+  87 |     width: 8%;
+> 88 |     float: left:;
+     |            ^
+  89 | }
+  90 | 
+  91 | 
+
+    at Object.<anonymous> (server-bundle.js:718:7)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (assets/css/index.css:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (src/App.vue:11:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (server-bundle.js:586:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+[2018-03-13 17:48:18.073] [ERROR] log_info - Error: Module build failed: Missed semicolon (88:12)
+
+  86 |     padding: 0px;
+  87 |     width: 8%;
+> 88 |     float: left:;
+     |            ^
+  89 | }
+  90 | 
+  91 | 
+
+    at Object.<anonymous> (server-bundle.js:718:7)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (assets/css/index.css:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (src/App.vue:11:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (server-bundle.js:586:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+[2018-03-13 17:48:18.662] [ERROR] log_info - Error: Module build failed: Missed semicolon (88:12)
+
+  86 |     padding: 0px;
+  87 |     width: 8%;
+> 88 |     float: left:;
+     |            ^
+  89 | }
+  90 | 
+  91 | 
+
+    at Object.<anonymous> (server-bundle.js:718:7)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (assets/css/index.css:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (src/App.vue:11:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.<anonymous> (server-bundle.js:586:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+    at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 249617d1623c27084a88:25:0)
+[2018-03-14 19:37:48.502] [ERROR] log_info - Error: Cannot find module "../assets/images/bg.jpg"
+    at webpackMissingModule (assets/css/index.css:7:3806)
+    at Object.module.exports.module.exports (assets/css/index.css:7:3806)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.<anonymous> (assets/css/index.css?8245:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.<anonymous> (src/App.vue:11:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.<anonymous> (server-bundle.js:608:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
+[2018-03-14 19:37:48.975] [ERROR] log_info - Error: Cannot find module "../assets/images/bg.jpg"
+    at webpackMissingModule (assets/css/index.css:7:3806)
+    at Object.module.exports.module.exports (assets/css/index.css:7:3806)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.<anonymous> (assets/css/index.css?8245:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.<anonymous> (src/App.vue:11:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.<anonymous> (server-bundle.js:608:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
+[2018-03-14 19:37:50.041] [ERROR] log_info - Error: Cannot find module "../assets/images/bg.jpg"
+    at webpackMissingModule (assets/css/index.css:7:3806)
+    at Object.module.exports.module.exports (assets/css/index.css:7:3806)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.<anonymous> (assets/css/index.css?8245:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.<anonymous> (src/App.vue:11:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.<anonymous> (server-bundle.js:608:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
+[2018-03-14 19:37:50.301] [ERROR] log_info - Error: Cannot find module "../assets/images/bg.jpg"
+    at webpackMissingModule (assets/css/index.css:7:3806)
+    at Object.module.exports.module.exports (assets/css/index.css:7:3806)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.<anonymous> (assets/css/index.css?8245:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.<anonymous> (src/App.vue:11:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.<anonymous> (server-bundle.js:608:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 5e6173626e5bfe6c7cfb:25:0)
+    at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
+[2018-03-15 18:14:58.127] [ERROR] log_info - Error: Module build failed: Unknown word (267:20)
+
+  265 |     width: 100%;
+  266 |     border-radius: 5px;
+> 267 |     marigin: 10px; 0;
+      |                    ^
+  268 | }
+  269 | 
+  270 | 
+
+    at Object.<anonymous> (server-bundle.js:746:7)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+    at Object.<anonymous> (assets/css/index.css:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+    at Object.<anonymous> (src/App.vue:12:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+    at Object.<anonymous> (server-bundle.js:614:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+    at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+[2018-03-15 18:14:58.618] [ERROR] log_info - Error: Module build failed: Unknown word (267:20)
+
+  265 |     width: 100%;
+  266 |     border-radius: 5px;
+> 267 |     marigin: 10px; 0;
+      |                    ^
+  268 | }
+  269 | 
+  270 | 
+
+    at Object.<anonymous> (server-bundle.js:746:7)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+    at Object.<anonymous> (assets/css/index.css:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+    at Object.<anonymous> (src/App.vue:12:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+    at Object.<anonymous> (server-bundle.js:614:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+    at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+[2018-03-15 18:14:59.028] [ERROR] log_info - Error: Module build failed: Unknown word (267:20)
+
+  265 |     width: 100%;
+  266 |     border-radius: 5px;
+> 267 |     marigin: 10px; 0;
+      |                    ^
+  268 | }
+  269 | 
+  270 | 
+
+    at Object.<anonymous> (server-bundle.js:746:7)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+    at Object.<anonymous> (assets/css/index.css:4:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+    at Object.<anonymous> (src/App.vue:12:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+    at Object.<anonymous> (server-bundle.js:614:137)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+    at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
+    at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)

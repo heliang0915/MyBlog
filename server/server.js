@@ -23,8 +23,6 @@ App.use(compression({
 App.use(cookieParser());
 App.use(bodyParser.json());
 App.use(bodyParser.urlencoded({extended:false}));
-App.use('/dist',express.static(path.join(__dirname,'/../dist/')));
-App.use('/assets',express.static(path.join(__dirname,'/../assets/')));
 
 App.use((req,res,next)=>{
     let date=new Date();
@@ -35,6 +33,8 @@ App.use((req,res,next)=>{
     res.header("Expires",date.toUTCString());
     next();
 })
+App.use('/dist',express.static(path.join(__dirname,'/../dist/')));
+App.use('/assets',express.static(path.join(__dirname,'/../assets/')));
 App.use("/api/",api)
 App.use("/",index);
 // catch 404 and forward to error handler

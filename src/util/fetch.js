@@ -35,7 +35,7 @@ let Fetch = {
         return axios.get(url+"", this.parseConfig(config));
     },
     post(url, params, config){
-        url=url.indexOf("?")>-1?url+"?temp="+Math.random():url+"&temp="+Math.random();
+        url=url.indexOf("?")>-1?url+"&temp="+Math.random():url+"?temp="+Math.random();
         console.log(`Fetch POST URL =>${url}`);
         return axios.post(url, params, this.parseConfig(config));
     }

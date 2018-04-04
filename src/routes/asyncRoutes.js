@@ -6,6 +6,7 @@ if (typeof require.ensure !== "function") require.ensure = function(d, c) { c(re
 let vueRouterConfig={
     indexComponent:"index",
     blogContent:"blogContent",
+    specialColumn:"specialColumn",
     notFoundComponent:"NotFound"
 }
 let vueRouter={};

@@ -1,9 +1,7 @@
 <template>
     <div id="app">
         <transition name="fade-router" mode="in-out">
-            <keep-alive>
                 <router-view></router-view>
-            </keep-alive>
         </transition>
     </div>
 </template>
@@ -11,4 +9,14 @@
     import '../assets/css/reset.css';
     import '../assets/css/common.css';
     import '../assets/css/index.css';
+    import '../assets/css/special.css';
+   //   export default{
+   //    data(){
+   //      return {}
+   //    },
+   //    mounted(){
+   //          alert(LazyImg);
+   //          new LazyImg(document.querySelector('#app'))
+   //      }
+   // }
 </script>

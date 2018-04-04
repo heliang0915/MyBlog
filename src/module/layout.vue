@@ -1,22 +1,22 @@
 <template>
     <div class="blog-warp">
-        <THeader></THeader>
+        <THeader v-show="isHeader"></THeader>
         <main>
-            <ul class="blog-nav">
+            <ul class="blog-nav" v-show="isHeader">
                 <li class="active">
-                    <a href="">专栏首页</a>
+                    <router-link to="/special">专栏首页</router-link>
                 </li>
+                <!--<li>-->
+                    <!--<router-lspecialink to="/">全部文章</router-link>-->
+                <!--</li>-->
                 <li>
-                    <a href="">全部文章</a>
-                </li>
-                <li>
-                    <a href="">粉丝关注</a>
+                    <router-link to="/">粉丝关注</router-link>
                 </li>
             </ul>
             <slot></slot>
         </main>
         <TFooter></TFooter>
-        <section class="fixed-header">
+        <section class="fixed-header" v-show="isHeader">
             <h1 class="blog-logo">
                 <a href="#########">
                     <img src="../../assets/images/logo.png" alt="">
@@ -33,6 +33,12 @@
     import THeader from '../module/header';
     import TFooter from '../module/footer';
     export default {
+        props:{
+           isHeader:{
+               type:Boolean,
+               default:true
+           }
+        },
         data(){
             return {
 

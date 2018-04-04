@@ -41,6 +41,14 @@
         margin:20px auto;
         text-align: center;
     }
+    pre{
+        border: 1px solid #ccc;
+        background-color: #f8f8f8;
+        padding: 10px;
+        margin: 5px 0px;
+        font-size: 0.8em;
+        border-radius: 3px;
+    }
 </style>
 <script>
     import fetch from '../util/fetch';
