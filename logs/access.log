@@ -1624,3 +1624,122 @@
     at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
     at Object.module.exports.Object.defineProperty.value (src/app.js:5:0)
     at __webpack_require__ (webpack:/webpack/bootstrap 02476cd6356748cd3c48:25:0)
+[2018-05-17 17:47:47.080] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 217ms
+[2018-05-17 17:47:47.484] [INFO] log_info - GET /favicon.ico 200 19ms
+[2018-05-17 17:47:53.575] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 15ms
+[2018-05-17 17:47:53.818] [INFO] log_info - GET /favicon.ico 200 16ms
+[2018-05-17 17:48:53.687] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 226ms
+[2018-05-17 17:48:54.115] [INFO] log_info - GET /favicon.ico 200 19ms
+[2018-05-17 17:56:17.144] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 513ms
+[2018-05-17 17:56:17.804] [INFO] log_info - GET /favicon.ico 200 14ms
+[2018-05-17 17:59:09.100] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 270ms
+[2018-05-17 17:59:09.543] [INFO] log_info - GET /favicon.ico 200 17ms
+[2018-05-17 18:00:27.979] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 283ms
+[2018-05-17 18:00:28.477] [INFO] log_info - GET /favicon.ico 200 16ms
+[2018-05-17 18:00:29.414] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 8ms
+[2018-05-17 18:00:29.647] [INFO] log_info - GET /favicon.ico 200 12ms
+[2018-05-17 18:00:30.856] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 10ms
+[2018-05-17 18:00:31.092] [INFO] log_info - GET /favicon.ico 200 12ms
+[2018-05-17 18:00:31.423] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 8ms
+[2018-05-17 18:00:31.738] [INFO] log_info - GET /favicon.ico 200 12ms
+[2018-05-17 18:00:31.925] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 10ms
+[2018-05-17 18:00:32.294] [INFO] log_info - GET /favicon.ico 200 9ms
+[2018-05-17 18:00:32.378] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 11ms
+[2018-05-17 18:00:32.898] [INFO] log_info - GET /favicon.ico 200 10ms
+[2018-05-17 18:00:32.923] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 9ms
+[2018-05-17 18:00:33.352] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 10ms
+[2018-05-17 18:00:33.682] [INFO] log_info - GET /favicon.ico 200 10ms
+[2018-05-17 18:05:11.335] [ERROR] log_info - ReferenceError: fileName is not defined
+    at /Users/hotread/work/learn/MyBlog/server/router/index.js:57:71
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:275:10)
+[2018-05-17 18:05:11.341] [INFO] log_info - GET /aaa.txt 500 15ms
+[2018-05-17 18:06:48.563] [INFO] log_info - GET /aa.txt 200 8ms
+[2018-05-17 18:08:35.588] [ERROR] log_info - Error: ENOENT: no such file or directory, open '/Users/hotread/work/learn/MyBlog/public/aaa.txt'
+    at Object.fs.openSync (fs.js:667:18)
+    at Object.fs.readFileSync (fs.js:572:33)
+    at /Users/hotread/work/learn/MyBlog/server/router/index.js:57:20
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:365:14)
+[2018-05-17 18:08:35.599] [INFO] log_info - GET /aaa.txt 500 19ms
+[2018-05-17 18:08:36.017] [ERROR] log_info - Error: ENOENT: no such file or directory, open '/Users/hotread/work/learn/MyBlog/public/favicon.ico'
+    at Object.fs.openSync (fs.js:667:18)
+    at Object.fs.readFileSync (fs.js:572:33)
+    at /Users/hotread/work/learn/MyBlog/server/router/index.js:57:20
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:365:14)
+[2018-05-17 18:08:36.019] [INFO] log_info - GET /favicon.ico 500 3ms
+[2018-05-17 18:12:08.822] [INFO] log_info - GET /aa.txt 200 7ms
+[2018-05-17 18:12:08.951] [ERROR] log_info - Error: ENOENT: no such file or directory, open '/Users/hotread/work/learn/MyBlog/public/favicon.ico'
+    at Object.fs.openSync (fs.js:667:18)
+    at Object.fs.readFileSync (fs.js:572:33)
+    at /Users/hotread/work/learn/MyBlog/server/router/index.js:57:20
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:365:14)
+[2018-05-17 18:12:08.959] [INFO] log_info - GET /favicon.ico 500 17ms
+[2018-05-17 18:12:08.990] [ERROR] log_info - Error: ENOENT: no such file or directory, open '/Users/hotread/work/learn/MyBlog/public/favicon.ico'
+    at Object.fs.openSync (fs.js:667:18)
+    at Object.fs.readFileSync (fs.js:572:33)
+    at /Users/hotread/work/learn/MyBlog/server/router/index.js:57:20
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/hotread/work/learn/MyBlog/node_modules/express/lib/router/index.js:365:14)
+[2018-05-17 18:12:10.718] [INFO] log_info - GET /aa.txt 200 0ms
+[2018-05-17 18:12:42.483] [INFO] log_info - GET /aa.txt 200 8ms
+[2018-05-17 18:12:43.240] [INFO] log_info - GET /aa.txt 200 1ms
+[2018-05-17 18:12:43.552] [INFO] log_info - GET /aa.txt 200 1ms
+[2018-05-17 18:12:43.767] [INFO] log_info - GET /aa.txt 200 0ms
+[2018-05-17 18:13:00.995] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 237ms
+[2018-05-17 18:13:01.046] [INFO] log_info - GET /dist/common.f59e29f6ae3fa5646e86.css 200 18ms
+[2018-05-17 18:13:01.051] [INFO] log_info - GET /dist/0.c596e656e9af22570392.js 200 12ms
+[2018-05-17 18:13:01.058] [INFO] log_info - GET /dist/app.f59e29f6ae3fa5646e86.js 200 19ms
+[2018-05-17 18:13:01.061] [INFO] log_info - GET /dist/libs.js?f8eefc8b4adb65ba694c 200 23ms
+[2018-05-17 18:14:03.387] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 367ms
+[2018-05-17 18:14:03.439] [INFO] log_info - GET /dist/common.f59e29f6ae3fa5646e86.css 200 21ms
+[2018-05-17 18:14:03.442] [INFO] log_info - GET /dist/0.c596e656e9af22570392.js 200 19ms
+[2018-05-17 18:14:03.448] [INFO] log_info - GET /dist/app.f59e29f6ae3fa5646e86.js 200 25ms
+[2018-05-17 18:14:03.451] [INFO] log_info - GET /dist/libs.js?f8eefc8b4adb65ba694c 200 29ms
+[2018-05-17 18:15:45.840] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 306ms
+[2018-05-17 18:15:45.921] [INFO] log_info - GET /dist/common.f59e29f6ae3fa5646e86.css 200 31ms
+[2018-05-17 18:15:45.929] [INFO] log_info - GET /dist/0.c596e656e9af22570392.js 200 22ms
+[2018-05-17 18:15:45.938] [INFO] log_info - GET /dist/app.f59e29f6ae3fa5646e86.js 200 31ms
+[2018-05-17 18:15:45.941] [INFO] log_info - GET /dist/libs.js?f8eefc8b4adb65ba694c 200 38ms
+[2018-05-17 18:18:20.175] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 403ms
+[2018-05-17 18:18:20.219] [INFO] log_info - GET /dist/common.f59e29f6ae3fa5646e86.css 200 22ms
+[2018-05-17 18:18:20.225] [INFO] log_info - GET /dist/0.c596e656e9af22570392.js 200 15ms
+[2018-05-17 18:18:20.232] [INFO] log_info - GET /dist/app.f59e29f6ae3fa5646e86.js 200 21ms
+[2018-05-17 18:18:20.235] [INFO] log_info - GET /dist/libs.js?f8eefc8b4adb65ba694c 200 27ms
+[2018-05-17 18:24:16.368] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 226ms
+[2018-05-17 18:24:16.410] [INFO] log_info - GET /dist/common.f59e29f6ae3fa5646e86.css 200 17ms
+[2018-05-17 18:24:16.413] [INFO] log_info - GET /dist/0.c596e656e9af22570392.js 200 13ms
+[2018-05-17 18:24:16.420] [INFO] log_info - GET /dist/app.f59e29f6ae3fa5646e86.js 200 18ms
+[2018-05-17 18:24:16.423] [INFO] log_info - GET /dist/libs.js?f8eefc8b4adb65ba694c 200 22ms
+[2018-05-17 18:25:52.565] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 181ms
+[2018-05-17 18:25:54.132] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 2ms
+[2018-05-17 18:26:10.099] [INFO] log_info - GET /.well-known/pki-validation/fileauth.txt 200 1ms

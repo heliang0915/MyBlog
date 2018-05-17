@@ -11,10 +11,21 @@ let template = fs.readFileSync(path.join(__dirname,'../template/template.html'),
 const serverBundle = require('../../dist/vue-ssr-server-bundle.json');
 const clientManifest = require('../../dist/vue-ssr-client-manifest.json');
 //压缩html代码
-// var reg=/\s+(?=<)|\s+$|\(?<=>\)\s+/g;
+// var reg=/\se+(?=<)|\s+$|\(?<=>\)\s+/g;
 // if(env!="development"){
 //     template=template.replace(reg,'');
 // }
+
+
+
+router.get('/:fileName',function (req,res) {
+    let {fileName}=req.params;
+    console.log(`path:${path.join(__dirname,`./../../public/${fileName}`)}`);
+    let content=fs.readFileSync(path.join(__dirname,`./../../public/${fileName}`));
+    res.end(content);
+})
+
+
 
 let renderer=createBundleRenderer(serverBundle,{
     template,
@@ -50,13 +61,23 @@ let mergeContext=(context,path)=>{
     return context;
 }
 
+
+
+
+
 router.route("*").all((req,res,next)=>{
     let context={
         title: '默认标题',
         url:req.originalUrl
     }
     context=mergeContext(context,req.originalUrl);
-    const s = Date.now()
+    const s = Date.now();
+
+    if(req.originalUrl=="/.well-known/pki-validation/fileauth.txt"){ //对ssl授权做判断
+        let content=fs.readFileSync(path.join(__dirname,`./../../public/.well-known/pki-validation/fileauth.txt`));
+        res.end(content);
+    }
+    // console.log("req.originalUrl:::"+req.originalUrl);
     renderer.renderToString(context, (err, html) => {
         if(env!="development"){
             //压缩html代码
