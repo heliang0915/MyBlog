@@ -54,7 +54,7 @@
 .channel-list{
     margin: 10px;
     padding-bottom: 10px;
-    background: url('../images/head_bg.png') no-repeat center;
+    /*background: url('../images/head_bg.png') no-repeat center;*/
     background-size: cover;
     border-bottom: 1px solid #eee;
     overflow: hidden;

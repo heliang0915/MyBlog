@@ -2,13 +2,13 @@
  *
  */
 import{createApp}from './app';
-import '../assets/js/lazyload.js'
+// import '../assets/js/lazyload.js'
 let {app,store,router}=createApp();
 
 let loadLazy=()=>{
     setTimeout(function(){
         var body=document.documentElement||document.body;
-        new LazyImg(body)
+        // new LazyImg(body)
     },100)
 }
 
