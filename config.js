@@ -8,12 +8,12 @@ let config={
     development:{
         port:4000,
         host:'http://localhost',
-        api:'http://localhost:8888'
+        api:'http://localhost:8080'
     },
     production:{
         port:5000,
         host:'http://localhost',
-        api:'http://localhost:8888'
+        api:'http://localhost:8080'
     }
 };
 
