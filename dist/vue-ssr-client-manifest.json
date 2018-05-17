@@ -5,13 +5,13 @@
     "assets/images/logo.png",
     "assets/images/logo2.png",
     "0.6b77cc8a425d9898c14d.js",
-    "app.07d61bd29d50511b52cf.js",
-    "libs.js?22487a535d146bf9c05d",
-    "common.07d61bd29d50511b52cf.css"
+    "app.a9c4ece635aecc4d8a2d.js",
+    "libs.js?c4706e0bde97f45c774a",
+    "common.a9c4ece635aecc4d8a2d.css"
   ],
   "initial": [
-    "libs.js?22487a535d146bf9c05d",
-    "app.07d61bd29d50511b52cf.js"
+    "libs.js?c4706e0bde97f45c774a",
+    "app.a9c4ece635aecc4d8a2d.js"
   ],
   "async": [
     "0.6b77cc8a425d9898c14d.js"

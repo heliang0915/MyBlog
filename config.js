@@ -11,7 +11,7 @@ let config={
         api:'http://localhost:8080'
     },
     production:{
-        port:5000,
+        port:80,
         host:'http://localhost',
         api:'http://localhost:8080'
     }
