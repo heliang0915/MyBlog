@@ -14,8 +14,8 @@ var https = require('https');
 app.set("port",port);
 //添加 Create HTTPS server.
 let options = {
-    key: fs.readFileSync(path.join(__dirname,'../certificate/private.key')),
-    cert: fs.readFileSync(path.join(__dirname,'../certificate/full_chain.pem'))
+    key: fs.readFileSync(path.join(__dirname,'../certificate/1527875924810.key')),
+    cert: fs.readFileSync(path.join(__dirname,'../certificate/1527875924810.pem'))
 };
 
 let server=http.createServer(app);
