@@ -4,6 +4,7 @@
   "description": "vue-server",
   "main": "index.js",
   "scripts": {
+    "startPm2":"pm2 start ./pm2/pm2_pro.json",
     "start": "export NODE_ENV=production&&node server/app.js",
     "build": "rimraf dist && npm run build:client && npm run build:server&&npm run start",
     "build:client": "export NODE_ENV=production&&webpack --config build/webpack.client.config.js --progress --hide-modules",
