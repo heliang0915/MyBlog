@@ -24,7 +24,7 @@ let httpsServer = https.createServer(options,app);
 
 
 server.listen(port);
-httpsServer.listen('443');
+httpsServer.listen('4431');
 
 let onListening=()=>{
     console.log("vue2渲染服务器启动.. 端口:%s",port);
