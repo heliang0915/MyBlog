@@ -13,18 +13,18 @@ let port=config.port||3000;
 var https = require('https');
 app.set("port",port);
 //添加 Create HTTPS server.
-let options = {
-    key: fs.readFileSync(path.join(__dirname,'../certificate/1527875924810.key')),
-    cert: fs.readFileSync(path.join(__dirname,'../certificate/1527875924810.pem'))
-};
+// let options = {
+//     key: fs.readFileSync(path.join(__dirname,'../certificate/1527875924810.key')),
+//     cert: fs.readFileSync(path.join(__dirname,'../certificate/1527875924810.pem'))
+// };
 
 let server=http.createServer(app);
-let httpsServer = https.createServer(options,app);
+// let httpsServer = https.createServer(options,app);
 
 
 
 server.listen(port);
-httpsServer.listen('4431');
+// httpsServer.listen('4431');
 
 let onListening=()=>{
     console.log("vue2渲染服务器启动.. 端口:%s",port);
@@ -40,8 +40,8 @@ let onError=(err)=>{
 
 server.on('listening',onListening);
 server.on('error',onError)
-httpsServer.on('listening',onHttpServerListening)
-httpsServer.on('error',onError);
+// httpsServer.on('listening',onHttpServerListening)
+// httpsServer.on('error',onError);
 
 function onHttpServerListening() {
     var addr = httpsServer.address();
